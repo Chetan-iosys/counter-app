@@ -37,4 +37,6 @@ function save() {
     console.log(count)
     let holder = count + " - "
     saveEl.textContent += holder
+    countEl.textContent=0
+    count=0
 }
