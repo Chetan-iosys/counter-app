@@ -1,0 +1,64 @@
+body {
+    margin-top: 100px;
+background: rgb(255,153,51);
+background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);    background-size: cover;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+text-align: center;
+}
+::selection{
+    color: white ;
+    background-color: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);   
+}
+.main-container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+button {
+background: #ff9933;
+-webkit-border-radius: 24;
+-moz-border-radius: 24;
+border-radius: 24px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+cursor: pointer;
+border:1px solid transparent;
+}
+button:hover {
+    transition: 1s all ;
+}
+#decrement-btn {
+    background: #000080;
+}
+#decrement-btn:hover {
+    background: #fff;
+    color: #000080;
+    border:1px solid #000080;
+}
+#increment-btn:hover {
+    color: #ff9933;
+    background: #fff;   
+    border:1px solid #ff9933;
+}
+#save-btn {
+background: #138808;
+}
+#save-btn:hover {
+    background: #fff;
+    color: #138808; 
+    border: 1px solid #138808;
+    }
